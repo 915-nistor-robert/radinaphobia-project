@@ -42,6 +42,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\move_frog.cs" />
+     <Compile Include="Assets\Scripts\random_movement.cs" />
+     <Compile Include="Assets\Scripts\player_cam.cs" />
+     <Compile Include="Assets\Scripts\move_camera.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Models\Frog" />
      <Folder Include="Assets\Models" />
