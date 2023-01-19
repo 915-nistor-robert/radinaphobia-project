@@ -36,7 +36,10 @@ Levels ideas:
 
 
 levels
-1. static hidden frog
-2. hidden frog + movement
-3. hidden frog + movement + sound
-4. 
+1. ~~static separated frog~~
+2. ~~separated frog + movement~~
+3. separated frog + movement + sound
+4. 2x separated frog + movement + sound
+5. 3x separated frog + movement + sound
+6. previous + readjust walls
+7. 
