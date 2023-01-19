@@ -6,6 +6,10 @@
 3. when controls get $%#@ed up, just use D to move in the direction you are looking at
 
 
+# when playing
+1. SampleScene -> Player2 -> Transform -> Position -> X = 15, Y = 0, Z = 25
+2. SampleScene -> Player2 -> PlayerMovement -> Speed Me Up -> 1
+
 todos
 1. ~~player movement~~
 2. ~~noclip~~
@@ -38,8 +42,14 @@ Levels ideas:
 levels
 1. ~~static separated frog~~
 2. ~~separated frog + movement~~
-3. separated frog + movement + sound
-4. 2x separated frog + movement + sound
-5. 3x separated frog + movement + sound
-6. previous + readjust walls
-7. 
+3. ~~separated frog + movement + sound~~
+4. ~~3x separated frog + movement + sound~~
+5. previous setup + allow player to move closer
+6. previous setup + allow player to move closer closer
+7. frog
+8. frog + movement
+9. frog + movement + sound
+10. 3x frog + movement + sound
+11. 10x frog + movement + sound
+12. 25x frog + movement + sound
+last: throw w/ frogs which whack on collision
