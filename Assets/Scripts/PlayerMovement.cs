@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 // unity 3d camera relative movement https://forum.unity.com/threads/moving-character-relative-to-camera.383086/
 public class PlayerMovement : MonoBehaviour
 {
     public float speedMeUp = 1f;
     
-    private Camera _camera;
+    // private Camera _camera;
+    public Transform cam;
 
     // Start is called before the first frame update
     private void Start()
     {
-        _camera = Camera.main;
+        // cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -25,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         //assuming we only using the single camera:
 
         //camera forward and right vectors:
-        var camTransform = _camera.transform;
+        var camTransform = cam.transform;
         var forward = camTransform.forward;
         var right = camTransform.right;
  
